@@ -55,8 +55,8 @@ Have you ever went to a different city and don't know what's currently popular? 
    * User can search for a location
    * User can search for specific type of food
 * Reward Screen
-*  User can sign up for rewards
-*  User can view their points
+   *  User can sign up for rewards
+   *  User can view their points
 
 ### 3. Navigation
 
