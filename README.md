@@ -14,7 +14,6 @@ Original App Design Project
 Have you ever went to a different city and don't know what's currently popular? This app will provide current popular places to visit such as hanging out with friends, eat, etc. without having to Google search. In addition, users can input if the place is busy, the deals, and what's popular to eat/hang during the day or week. Furthermore, users can locate the area(s) in a tab where it shows the map of where and how busy the place is. In addition, as popular places to eat are being listed, users can go to the restaurant's Yelp page; if there's no Yelp Page, it will say it's unavailable. Since many users might not use the app if there aren't rewards, a higher chance for more users is if they leave updates/suggestions/comments, they will receive points to get discounts.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Travel, Navigation, Food & Drink 
 - **Mobile:** Mobile Cellphone, Desktop, iPad/Tablet
 - **Story:** A way for people to discover new places to eat/travel easier
@@ -28,7 +27,6 @@ Have you ever went to a different city and don't know what's currently popular? 
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
 * Login Screen
 * Registration Screen
 * Creation Screen
@@ -38,8 +36,7 @@ Have you ever went to a different city and don't know what's currently popular? 
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* Rewards Screen
+* Reward Screen
 
 ### 2. Screen Archetypes
 
@@ -57,6 +54,9 @@ Have you ever went to a different city and don't know what's currently popular? 
 * Search
    * User can search for a location
    * User can search for specific type of food
+* Reward Screen
+*  User can sign up for rewards
+*  User can view their points
 
 ### 3. Navigation
 
