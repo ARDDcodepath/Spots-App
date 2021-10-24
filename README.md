@@ -15,12 +15,12 @@ Have you ever went to a different city and don't know what's currently popular? 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Travel, Navigation, Food & Drink 
+- **Mobile:** Mobile Cellphone, Desktop, iPad/Tablet
+- **Story:** A way for people to discover new places to eat/travel easier
+- **Market:** For anyone over the age of 18
+- **Habit:** Often such when people want to eat/travel
+- **Scope:** The challenging part is for restaurnats offering discounts due to points
 
 ## Product Spec
 
