@@ -29,21 +29,34 @@ Have you ever went to a different city and don't know what's currently popular? 
 **Required Must-have Stories**
 
 * [fill in your required user stories here]
-* ...
+* Login Screen
+* Registration Screen
+* Creation Screen
+* Navigation Screen
+* Stream
+* Search
 
 **Optional Nice-to-have Stories**
 
 * [fill in your required user stories here]
-* ...
+* Rewards Screen
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login Screen
+   * User can login/logout
+* Registration Screen
+   * User can create a new account
+* Creation Screen
+   * User can add a review
+* Navigation Screen
+   * User can locate preferred area
+ * Stream
+   * User can like a review
+   * User can view feed of locations/food
+* Search
+   * User can search for a location
+   * User can search for specific type of food
 
 ### 3. Navigation
 
