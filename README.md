@@ -64,6 +64,7 @@ Have you ever went to a different city and don't know what's currently popular? 
 
 * Stream
 * Search
+* Navigation Screen
 
 Optional:
 
@@ -74,8 +75,12 @@ Optional:
 * Login Screen
    * If login is available, go to Stream Screen.
    * If login is unavailable, go into Registration Screen.
-* Stream Screen
+* Search Screen
    * Text field where user can create a review
+* Stream Screen
+   *  User can view list of restaurant/places
+* Navigation Screen
+   * User can view where the place is at
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
