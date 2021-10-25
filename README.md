@@ -19,7 +19,7 @@ Have you ever went to a different city and don't know what's currently popular? 
 - **Story:** A way for people to discover new places to eat/travel easier
 - **Market:** For anyone over the age of 18
 - **Habit:** Often such when people want to eat/travel
-- **Scope:** The challenging part is for restaurnats offering discounts due to points
+- **Scope:** The challenging part is for restaurants offering discounts due to points
 
 ## Product Spec
 
@@ -62,18 +62,20 @@ Have you ever went to a different city and don't know what's currently popular? 
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Stream
+* Search
+
+Optional:
+
+* Rewards
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login Screen
+   * If login is available, go to Stream Screen.
+   * If login is unavailable, go into Registration Screen.
+* Stream Screen
+   * Text field where user can create a review
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
