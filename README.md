@@ -83,8 +83,7 @@ Optional:
    * User can view where the place is at
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://user-images.githubusercontent.com/31374187/138789427-57d5cccb-b18e-4744-b9cd-58777c20d162.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
