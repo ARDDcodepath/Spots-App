@@ -106,7 +106,7 @@ Optional:
 ### Networking
 - [Add list of network requests by screen ]
 * Home Feed Screen
-- (Read/Get) Posts from food section
+  -  (Read/Get) Posts from food section
 * Registration Screen
 * Creation Screen
 * Navigation Screen
