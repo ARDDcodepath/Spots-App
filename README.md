@@ -104,13 +104,30 @@ Optional:
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
-- [Add list of network requests by screen ]
 * Home Feed Screen
-  -  (Read/Get) Posts from food section
-* Registration Screen
+  - (Read/Get) Posts from food section
+  - (Create/POST) Create a new like on a post
+  - (Delete) Delete existing like
+  - (Update/PUT) Update number of likes on post
+  
+* Setting Screen
+- (Read/GET) Query logged in user object
+- (Update/PUT) Update user settings
+
+* Profile Screen
+  - (Read/GET) Query logged in user object
+  - (Update/PUT) Update user profile image
+  
 * Creation Screen
+  - (Create/POST) Create a new post object
+  - (Create/POST) Create a new comment on a post
+  - (Delete) Delete existing comment
+
 * Navigation Screen
-* Stream
-* Search 
+  - (Read/GET) Places/Restaurants on API
+
+* Search
+  - (Read/GET) Query logged in user object previous searches
+ 
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
