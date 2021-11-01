@@ -111,8 +111,8 @@ Optional:
   - (Update/PUT) Update number of likes on post
   
 * Setting Screen
-- (Read/GET) Query logged in user object
-- (Update/PUT) Update user settings
+  - (Read/GET) Query logged in user object
+  - (Update/PUT) Update user settings
 
 * Profile Screen
   - (Read/GET) Query logged in user object
