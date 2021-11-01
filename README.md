@@ -104,6 +104,7 @@ Optional:
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
+### Network Request Outline
 * Home Feed Screen
   - (Read/Get) Posts from food section
   - (Create/POST) Create a new like on a post
@@ -128,6 +129,6 @@ Optional:
 
 * Search
   - (Read/GET) Query logged in user object previous searches
- 
+ ### Parse Network Request
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
