@@ -105,5 +105,12 @@ Optional:
    | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
 - [Add list of network requests by screen ]
+* Home Feed Screen
+- (Read/Get) Posts from food section
+* Registration Screen
+* Creation Screen
+* Navigation Screen
+* Stream
+* Search 
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
