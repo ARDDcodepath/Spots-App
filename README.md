@@ -107,29 +107,96 @@ Optional:
 ### Network Request Outline
 * Home Feed Screen
   - (Read/Get) Posts from food section
+ 
+ ```let query = PFQuery(className:"Post")
+query.whereKey("author", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let posts = posts {
+      print("Successfully retrieved \(posts.count) posts.")
+  // TODO: Do something with posts...
+   }
+}
+```
   - (Create/POST) Create a new like on a post
+
+```
+APICaller.client?post(url, parameter: 
+["id":tweetId], progress: nil, success: { (task: URLSessionDataTask, 
+response: Any?) in success()}, failure:{ (task: URLSessionDataTask?, error: 
+Error) in failure(error)})}
+```
   - (Delete) Delete existing like
-  - (Update/PUT) Update number of likes on post
-  
+ 
+ ```
+ APICaller.client?post(url, parameter: 
+ ["id":tweetId], progress: nil, success: { (task: URLSessionDataTask, 
+ response: Any?) in success()}, failure:{ (task: URLSessionDataTask?, error: 
+Error) in failure(error)})}
+```
 * Setting Screen
   - (Read/GET) Query logged in user object
-  - (Update/PUT) Update user settings
-
-* Profile Screen
-  - (Read/GET) Query logged in user object
-  - (Update/PUT) Update user profile image
+ 
+```let query = PFQuery(className:"Post")
+query.whereKey("author", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let posts = posts {
+      print("Successfully retrieved \(posts.count) posts.")
+  // TODO: Do something with posts...
+   }
+}
+```
   
 * Creation Screen
   - (Create/POST) Create a new post object
+  
+  ```let query = PFQuery(className:"Posts")
+        query.includeKeys(["author", "comments", "comments.author"])
+        query.limit = 20
+        
+        query.findObjectsInBackground { (posts, error) in
+            if posts != nil {
+                self.posts = posts!
+                self.tableView.reloadData()
+            }
+            
+        }
+  ```
   - (Create/POST) Create a new comment on a post
+  
+  ```let post = posts[indexPath.section]
+        
+        let comments = (post["comments"]as? [PFObject]) ?? []
+        
+        if indexPath.row == comments.count + 1 {
+            showsCommentBar = true
+            becomeFirstResponder()
+            commentBar.inputTextView.becomeFirstResponder()
+            
+            selectedPost = post
+  ```
+            
   - (Delete) Delete existing comment
-
-* Navigation Screen
-  - (Read/GET) Places/Restaurants on API
-
-* Search
-  - (Read/GET) Query logged in user object previous searches
-
-    
-
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+  
+  ```let comment = PFObject(className:"Comments")
+        comment["text"] = text
+             comment["post"] = selectedPost
+             comment["author"] = PFUser.current()!
+     
+             selectedPost.add(comment, forKey:  "comments")
+     
+             selectedPost.saveInBackground {(success, error) in
+                 if success {
+                     print("Comment saved")
+     
+                 } else {
+                     print("Error saving comment")
+                 }
+             }
+                 tableView.reloadData()
+ ```
