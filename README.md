@@ -129,6 +129,7 @@ Optional:
 
 * Search
   - (Read/GET) Query logged in user object previous searches
- ### Parse Network Request
-- [Create basic snippets for each Parse network request]
+
+    
+
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
