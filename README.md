@@ -202,5 +202,5 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
  ```
   * Completed User Stories
   [x] Login Screen
-  <img src='http://g.recordit.co/gqwqy69OxI.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+  <img src='http://g.recordit.co/oN4QbYsP4P.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   
