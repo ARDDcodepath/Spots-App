@@ -200,9 +200,3 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
              }
                  tableView.reloadData()
  ```
-
-  Completed User Stories
-  
-  [x] Login Screen
-  <img src='http://g.recordit.co/oN4QbYsP4P.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-  
