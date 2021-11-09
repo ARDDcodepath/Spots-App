@@ -204,11 +204,10 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 
   Completed User Stories
   
-  [x] Login Screen
+  [x] Launch Screen, Login Screen, & App Icon
   
-  <img src='http://g.recordit.co/oN4QbYsP4P.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+  <img src='https://i.imgur.com/pyp5iPH.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
   
-  [x] Launch Screen & App Icon
   
-  <img src='https://i.imgur.com/zwM729U.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   
