@@ -74,6 +74,15 @@
                                     <action selector="onSignIn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oPU-J0-zuY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lli-ED-14k">
+                                <rect key="frame" x="83" y="555" width="42" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log In"/>
+                                <connections>
+                                    <action selector="onSignIn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yZr-Rq-2uv"/>
+                                    <segue destination="AvT-EO-DhF" kind="show" id="hLE-YS-2p4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -86,6 +95,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="93.75"/>
+        </scene>
+        <!--gotoHomeScreen-->
+        <scene sceneID="Qhq-bu-mvO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HomeScreen" referencedIdentifier="gotoHomeScreen" id="AvT-EO-DhF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ewh-qs-8hE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EcG-5r-Nsn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="94"/>
         </scene>
     </scenes>
     <resources>

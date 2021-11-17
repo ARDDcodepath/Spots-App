@@ -69,7 +69,7 @@
         <!--Navigation Controller-->
         <scene sceneID="9pA-KF-jrm">
             <objects>
-                <navigationController useStoryboardIdentifierAsRestorationIdentifier="YES" id="eeW-NO-4Vo" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="gotoHomeScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eeW-NO-4Vo" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="caO-8i-Ryg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
