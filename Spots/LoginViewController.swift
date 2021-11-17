@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  Spots
 //
-//  Created by David Chu on 11/8/21.
+//  Created by danielle rodriguez on 11/16/21.
 //
 
 import UIKit

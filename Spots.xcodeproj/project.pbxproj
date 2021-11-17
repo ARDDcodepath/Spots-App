@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		115FF1DFAA099772D0512A83 /* Pods_Spots_SpotsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8F2C523BCAC67FCF9ABAE2 /* Pods_Spots_SpotsUITests.framework */; };
 		3324DAF927435CB8001F6F6C /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3324DAF827435CB8001F6F6C /* HomeScreen.storyboard */; };
-		3324DAFD274367EE001F6F6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324DAFC274367EE001F6F6C /* LoginViewController.swift */; };
 		3324DAFF27436BE8001F6F6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324DAFE27436BE8001F6F6C /* HomeViewController.swift */; };
+		3324DB012744A4B5001F6F6C /* LoginScreenTableViewControllerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324DB002744A4B5001F6F6C /* LoginScreenTableViewControllerCollectionViewController.swift */; };
+		3324DB032744A67D001F6F6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324DB022744A67D001F6F6C /* LoginViewController.swift */; };
 		4C4D33E6789022A66F024FE3 /* Pods_Spots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E438B84D534172E85081950 /* Pods_Spots.framework */; };
 		55B87D49273A39F3003D55FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D48273A39F3003D55FE /* AppDelegate.swift */; };
 		55B87D4B273A39F3003D55FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D4A273A39F3003D55FE /* SceneDelegate.swift */; };
@@ -44,8 +45,9 @@
 /* Begin PBXFileReference section */
 		0200F359E5642325F939CA9D /* Pods-Spots-SpotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spots-SpotsUITests.release.xcconfig"; path = "Target Support Files/Pods-Spots-SpotsUITests/Pods-Spots-SpotsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3324DAF827435CB8001F6F6C /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
-		3324DAFC274367EE001F6F6C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../.Trash/LoginViewController.swift; sourceTree = "<group>"; };
 		3324DAFE27436BE8001F6F6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3324DB002744A4B5001F6F6C /* LoginScreenTableViewControllerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginScreenTableViewControllerCollectionViewController.swift; path = ../../../../.Trash/LoginScreenTableViewControllerCollectionViewController.swift; sourceTree = "<group>"; };
+		3324DB022744A67D001F6F6C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55B87D45273A39F3003D55FE /* Spots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B87D48273A39F3003D55FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B87D4A273A39F3003D55FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,8 +139,9 @@
 				55B87D48273A39F3003D55FE /* AppDelegate.swift */,
 				55B87D4A273A39F3003D55FE /* SceneDelegate.swift */,
 				55B87D78273A3EB5003D55FE /* LoginScreen.storyboard */,
-				3324DAFC274367EE001F6F6C /* LoginViewController.swift */,
 				3324DAF827435CB8001F6F6C /* HomeScreen.storyboard */,
+				3324DB022744A67D001F6F6C /* LoginViewController.swift */,
+				3324DB002744A4B5001F6F6C /* LoginScreenTableViewControllerCollectionViewController.swift */,
 				3324DAFE27436BE8001F6F6C /* HomeViewController.swift */,
 				55B87D4C273A39F3003D55FE /* ViewController.swift */,
 				55B87D4E273A39F3003D55FE /* Main.storyboard */,
@@ -420,10 +423,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3324DB032744A67D001F6F6C /* LoginViewController.swift in Sources */,
 				3324DAFF27436BE8001F6F6C /* HomeViewController.swift in Sources */,
 				55B87D4D273A39F3003D55FE /* ViewController.swift in Sources */,
+				3324DB012744A4B5001F6F6C /* LoginScreenTableViewControllerCollectionViewController.swift in Sources */,
 				55B87D49273A39F3003D55FE /* AppDelegate.swift in Sources */,
-				3324DAFD274367EE001F6F6C /* LoginViewController.swift in Sources */,
 				55B87D4B273A39F3003D55FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
