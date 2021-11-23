@@ -15,9 +15,13 @@
 		33BB2646274C3C0C007CB09A /* FoodandDrinksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2645274C3C0C007CB09A /* FoodandDrinksController.swift */; };
 		33BB2648274C59A6007CB09A /* PlacesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2647274C59A6007CB09A /* PlacesScreen.storyboard */; };
 		4C4D33E6789022A66F024FE3 /* Pods_Spots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E438B84D534172E85081950 /* Pods_Spots.framework */; };
+<<<<<<< Updated upstream
 		4C853BA6274CA9CF00156C39 /* RegistrationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C853BA5274CA9CF00156C39 /* RegistrationScreen.storyboard */; };
 		4C853BA8274CAA3A00156C39 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C853BA7274CAA3A00156C39 /* RegistrationViewController.swift */; };
 		55B7E549274CA4F30019CDE5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B7E548274CA4F30019CDE5 /* Logo.png */; };
+=======
+		4C853B9E274C93A200156C39 /* RegistrationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C853B9D274C93A200156C39 /* RegistrationScreen.storyboard */; };
+>>>>>>> Stashed changes
 		55B87D49273A39F3003D55FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D48273A39F3003D55FE /* AppDelegate.swift */; };
 		55B87D4B273A39F3003D55FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D4A273A39F3003D55FE /* SceneDelegate.swift */; };
 		55B87D4D273A39F3003D55FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D4C273A39F3003D55FE /* ViewController.swift */; };
@@ -52,12 +56,16 @@
 		3324DAF827435CB8001F6F6C /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 		3324DAFE27436BE8001F6F6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3324DB022744A67D001F6F6C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		33BB2643274C3BB5007CB09A /* FoodandDrinksScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FoodandDrinksScreen.storyboard; sourceTree = "<group>"; };
 		33BB2645274C3C0C007CB09A /* FoodandDrinksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodandDrinksController.swift; sourceTree = "<group>"; };
 		33BB2647274C59A6007CB09A /* PlacesScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesScreen.storyboard; sourceTree = "<group>"; };
 		4C853BA5274CA9CF00156C39 /* RegistrationScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegistrationScreen.storyboard; sourceTree = "<group>"; };
 		4C853BA7274CAA3A00156C39 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		55B7E548274CA4F30019CDE5 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../Logo.png; sourceTree = "<group>"; };
+=======
+		4C853B9D274C93A200156C39 /* RegistrationScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationScreen.storyboard; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		55B87D45273A39F3003D55FE /* Spots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B87D48273A39F3003D55FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B87D4A273A39F3003D55FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,7 +170,11 @@
 				55B7E548274CA4F30019CDE5 /* Logo.png */,
 				55B87D53273A39F5003D55FE /* LaunchScreen.storyboard */,
 				55B87D56273A39F5003D55FE /* Info.plist */,
+<<<<<<< Updated upstream
 				4C853BA7274CAA3A00156C39 /* RegistrationViewController.swift */,
+=======
+				4C853B9D274C93A200156C39 /* RegistrationScreen.storyboard */,
+>>>>>>> Stashed changes
 			);
 			path = Spots;
 			sourceTree = "<group>";
@@ -313,6 +325,7 @@
 				55B87D55273A39F5003D55FE /* LaunchScreen.storyboard in Resources */,
 				55B7E549274CA4F30019CDE5 /* Logo.png in Resources */,
 				55B87D52273A39F5003D55FE /* Assets.xcassets in Resources */,
+				4C853B9E274C93A200156C39 /* RegistrationScreen.storyboard in Resources */,
 				55B87D79273A3EB5003D55FE /* LoginScreen.storyboard in Resources */,
 				55B87D50273A39F3003D55FE /* Main.storyboard in Resources */,
 			);
