@@ -16,6 +16,7 @@
 		33BB2646274C3C0C007CB09A /* FoodandDrinksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB2645274C3C0C007CB09A /* FoodandDrinksController.swift */; };
 		33BB2648274C59A6007CB09A /* PlacesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BB2647274C59A6007CB09A /* PlacesScreen.storyboard */; };
 		4C4D33E6789022A66F024FE3 /* Pods_Spots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E438B84D534172E85081950 /* Pods_Spots.framework */; };
+		4C4E24A8274CDF7B0069FECB /* RegistrationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E24A7274CDF7B0069FECB /* RegistrationScreen.storyboard */; };
 		55B87D49273A39F3003D55FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D48273A39F3003D55FE /* AppDelegate.swift */; };
 		55B87D4B273A39F3003D55FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D4A273A39F3003D55FE /* SceneDelegate.swift */; };
 		55B87D4D273A39F3003D55FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D4C273A39F3003D55FE /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		33BB2643274C3BB5007CB09A /* FoodandDrinksScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FoodandDrinksScreen.storyboard; sourceTree = "<group>"; };
 		33BB2645274C3C0C007CB09A /* FoodandDrinksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodandDrinksController.swift; sourceTree = "<group>"; };
 		33BB2647274C59A6007CB09A /* PlacesScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesScreen.storyboard; sourceTree = "<group>"; };
+		4C4E24A7274CDF7B0069FECB /* RegistrationScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegistrationScreen.storyboard; sourceTree = "<group>"; };
 		55B87D45273A39F3003D55FE /* Spots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B87D48273A39F3003D55FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B87D4A273A39F3003D55FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				3324DAFE27436BE8001F6F6C /* HomeViewController.swift */,
 				55B87D4C273A39F3003D55FE /* ViewController.swift */,
 				55B87D4E273A39F3003D55FE /* Main.storyboard */,
+				4C4E24A7274CDF7B0069FECB /* RegistrationScreen.storyboard */,
 				55B87D51273A39F5003D55FE /* Assets.xcassets */,
 				55B87D53273A39F5003D55FE /* LaunchScreen.storyboard */,
 				55B87D56273A39F5003D55FE /* Info.plist */,
@@ -307,6 +310,7 @@
 				55B87D52273A39F5003D55FE /* Assets.xcassets in Resources */,
 				55B87D79273A3EB5003D55FE /* LoginScreen.storyboard in Resources */,
 				55B87D50273A39F3003D55FE /* Main.storyboard in Resources */,
+				4C4E24A8274CDF7B0069FECB /* RegistrationScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
