@@ -212,5 +212,18 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   
   <img width="269" alt="Home" src="https://user-images.githubusercontent.com/31374187/141929056-1fdd71d3-40ee-4e36-b868-a1847d2bb89e.png">
 
+  [x] Updated Launch Screen
+  
+<img width="269" src="https://i.imgur.com/BQBeiv3.png">
+
+  [x] Registration Screen
+  
+<img width="269" src="https://i.imgur.com/FMBE4MF.png">
+
+[x] Feed Screen
+
+<img width="269" src="https://i.imgur.com/Hsq7rFW.png">
+  
+<img width="269" src="https://i.imgur.com/KkHnWDg.png">
   
   
