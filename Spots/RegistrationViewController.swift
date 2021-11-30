@@ -23,26 +23,26 @@ class RegistrationViewController: UIViewController {
     
    
     @IBAction func LetsGo(_ sender: Any) {
-        let user = PFUser()
-            user.username = UserNameField.text
-            user.email = emailField.text
-            user.password = passwordField.text
-            
-            user.signUpInBackground { (success, error) in
-                if success {
-                    self.performSegue(withIdentifier: "loginSegue", sender: nil)
-                } else {
-                    print("Error: \(error?.localizedDescription)")
-                }
-            }
-        
-        let main = UIStoryboard(name: "Main", bundle: nil)
-        let loginViewController = main.instantiateViewController(withIdentifier:"LoginViewController")
-        
-        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else{return}
-        
-        delegate.window?.rootViewController = loginViewController
-        
+//        let user = PFUser()
+//            user.username = UserNameField.text
+//            user.email = emailField.text
+//            user.password = passwordField.text
+//
+//            user.signUpInBackground { (success, error) in
+//                if success {
+//                    self.performSegue(withIdentifier: "loginSegue", sender: nil)
+//                } else {
+//                    print("Error: \(error?.localizedDescription)")
+//                }
+//            }
+//
+//        let main = UIStoryboard(name: "Main", bundle: nil)
+//        let loginViewController = main.instantiateViewController(withIdentifier:"LoginViewController")
+//
+//        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else{return}
+//
+//        delegate.window?.rootViewController = loginViewController
+//
     }
     
     
