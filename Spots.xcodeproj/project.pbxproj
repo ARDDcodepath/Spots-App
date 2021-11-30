@@ -21,11 +21,13 @@
 		4C7ECAD42755EA4100CEF0CA /* PlacesListScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7ECAD32755EA4100CEF0CA /* PlacesListScreen.storyboard */; };
 		4C7ECAD62755EA5C00CEF0CA /* Food&DrinksListScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7ECAD52755EA5C00CEF0CA /* Food&DrinksListScreen.storyboard */; };
 		4C7ECAD8275603BD00CEF0CA /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7ECAD7275603BD00CEF0CA /* ReviewViewController.swift */; };
+		4C7ECADA27563C1300CEF0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7ECAD927563C1300CEF0CA /* Assets.xcassets */; };
+		4C7ECADC2756412300CEF0CA /* F&DListScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7ECADB2756412200CEF0CA /* F&DListScreenController.swift */; };
+		4C7ECADE2756413700CEF0CA /* PlacesListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7ECADD2756413700CEF0CA /* PlacesListController.swift */; };
 		55B87D49273A39F3003D55FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D48273A39F3003D55FE /* AppDelegate.swift */; };
 		55B87D4B273A39F3003D55FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D4A273A39F3003D55FE /* SceneDelegate.swift */; };
 		55B87D4D273A39F3003D55FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D4C273A39F3003D55FE /* ViewController.swift */; };
 		55B87D50273A39F3003D55FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B87D4E273A39F3003D55FE /* Main.storyboard */; };
-		55B87D52273A39F5003D55FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B87D51273A39F5003D55FE /* Assets.xcassets */; };
 		55B87D55273A39F5003D55FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B87D53273A39F5003D55FE /* LaunchScreen.storyboard */; };
 		55B87D60273A39F5003D55FE /* SpotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D5F273A39F5003D55FE /* SpotsTests.swift */; };
 		55B87D6B273A39F5003D55FE /* SpotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B87D6A273A39F5003D55FE /* SpotsUITests.swift */; };
@@ -64,12 +66,14 @@
 		4C7ECAD32755EA4100CEF0CA /* PlacesListScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesListScreen.storyboard; sourceTree = "<group>"; };
 		4C7ECAD52755EA5C00CEF0CA /* Food&DrinksListScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Food&DrinksListScreen.storyboard"; sourceTree = "<group>"; };
 		4C7ECAD7275603BD00CEF0CA /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		4C7ECAD927563C1300CEF0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C7ECADB2756412200CEF0CA /* F&DListScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "F&DListScreenController.swift"; sourceTree = "<group>"; };
+		4C7ECADD2756413700CEF0CA /* PlacesListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListController.swift; sourceTree = "<group>"; };
 		55B87D45273A39F3003D55FE /* Spots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B87D48273A39F3003D55FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B87D4A273A39F3003D55FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55B87D4C273A39F3003D55FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55B87D4F273A39F3003D55FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		55B87D51273A39F5003D55FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55B87D54273A39F5003D55FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55B87D56273A39F5003D55FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B87D5B273A39F5003D55FE /* SpotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +161,7 @@
 				3324DAFE27436BE8001F6F6C /* HomeViewController.swift */,
 				55B87D4C273A39F3003D55FE /* ViewController.swift */,
 				3324DB022744A67D001F6F6C /* LoginViewController.swift */,
+				55B87D53273A39F5003D55FE /* LaunchScreen.storyboard */,
 				55B87D78273A3EB5003D55FE /* LoginScreen.storyboard */,
 				3324DAF827435CB8001F6F6C /* HomeScreen.storyboard */,
 				33BB2645274C3C0C007CB09A /* FoodandDrinksController.swift */,
@@ -165,13 +170,14 @@
 				55B87D4E273A39F3003D55FE /* Main.storyboard */,
 				4C4E24A7274CDF7B0069FECB /* RegistrationScreen.storyboard */,
 				4C7ECACB2755E2EB00CEF0CA /* RegistrationViewController.swift */,
-				55B87D53273A39F5003D55FE /* LaunchScreen.storyboard */,
 				4C7ECAD7275603BD00CEF0CA /* ReviewViewController.swift */,
 				4C7ECACF2755E3EF00CEF0CA /* ReviewScreen.storyboard */,
+				4C7ECADD2756413700CEF0CA /* PlacesListController.swift */,
 				4C7ECAD32755EA4100CEF0CA /* PlacesListScreen.storyboard */,
+				4C7ECADB2756412200CEF0CA /* F&DListScreenController.swift */,
 				4C7ECAD52755EA5C00CEF0CA /* Food&DrinksListScreen.storyboard */,
+				4C7ECAD927563C1300CEF0CA /* Assets.xcassets */,
 				55B87D56273A39F5003D55FE /* Info.plist */,
-				55B87D51273A39F5003D55FE /* Assets.xcassets */,
 			);
 			path = Spots;
 			sourceTree = "<group>";
@@ -317,12 +323,12 @@
 			files = (
 				4C7ECAD02755E3EF00CEF0CA /* ReviewScreen.storyboard in Resources */,
 				33BB2648274C59A6007CB09A /* PlacesScreen.storyboard in Resources */,
+				4C7ECADA27563C1300CEF0CA /* Assets.xcassets in Resources */,
 				3324DAF927435CB8001F6F6C /* HomeScreen.storyboard in Resources */,
 				33BB2644274C3BB5007CB09A /* FoodandDrinksScreen.storyboard in Resources */,
 				4C7ECAD62755EA5C00CEF0CA /* Food&DrinksListScreen.storyboard in Resources */,
 				55B87D55273A39F5003D55FE /* LaunchScreen.storyboard in Resources */,
 				4C7ECAD42755EA4100CEF0CA /* PlacesListScreen.storyboard in Resources */,
-				55B87D52273A39F5003D55FE /* Assets.xcassets in Resources */,
 				55B87D79273A3EB5003D55FE /* LoginScreen.storyboard in Resources */,
 				55B87D50273A39F3003D55FE /* Main.storyboard in Resources */,
 				4C4E24A8274CDF7B0069FECB /* RegistrationScreen.storyboard in Resources */,
@@ -458,9 +464,11 @@
 				55B87D4D273A39F3003D55FE /* ViewController.swift in Sources */,
 				55B87D49273A39F3003D55FE /* AppDelegate.swift in Sources */,
 				4C7ECACC2755E2EB00CEF0CA /* RegistrationViewController.swift in Sources */,
+				4C7ECADC2756412300CEF0CA /* F&DListScreenController.swift in Sources */,
 				33BB2646274C3C0C007CB09A /* FoodandDrinksController.swift in Sources */,
 				4C7ECAD8275603BD00CEF0CA /* ReviewViewController.swift in Sources */,
 				55B87D4B273A39F3003D55FE /* SceneDelegate.swift in Sources */,
+				4C7ECADE2756413700CEF0CA /* PlacesListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
