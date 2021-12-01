@@ -203,7 +203,8 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
  ```
 
   Completed User Stories
-  
+  [x] Launch Screen, Login Screen, App Icon, Home page, Registration Screen, Review Screen
+  https://user-images.githubusercontent.com/45018558/144153789-baccdac8-1666-4383-9bff-dd8ac92d939d.gif
   [x] Launch Screen, Login Screen, & App Icon
   
   <img src='https://i.imgur.com/pyp5iPH.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
