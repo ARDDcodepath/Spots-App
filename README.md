@@ -230,4 +230,6 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   
 <img width="269" src="https://i.imgur.com/KkHnWDg.png">
   
-  
+Video Walkthrough Link
+
+https://youtu.be/Pj4bM_sibRo
